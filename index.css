@@ -6762,4 +6762,8 @@ body {
 .cover .cover-image.cover-image-fixed {
   background-attachment: fixed;
 }
+
+.img-border{
+    border: 1px solid #FFF;
+}
 /* PINGENDO COMMENT DO NOT REMOVE */
