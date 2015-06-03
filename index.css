@@ -6755,6 +6755,9 @@ body {
 .cover .navbar .navbar-toggle .icon-bar {
   background-color: #000000;
 }
+.icon-bar-grey {
+    background-color: #666666;
+}
 .cover .navbar.navbar-inverse .navbar-toggle {
   border-color: transparent;
 }
