@@ -4182,11 +4182,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
   height: 50px;
-  color: #FFF;
+  color: #000;
 }
+
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -6674,7 +6676,7 @@ body {
 }
 .cover h1,
 .cover .h1 {
-  color: inherit;
+  color: rgb(138,176,140);
 }
 .cover p {
   margin-bottom: 15px;
@@ -6706,7 +6708,7 @@ body {
   }
 }
 .cover h1.text-primary {
-  color: #337cbb !important;
+  color: rgb(138,176,140) !important;
 }
 .cover h1.text-inverse {
   color: #ffffff !important;
