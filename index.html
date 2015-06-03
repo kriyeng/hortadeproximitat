@@ -14,35 +14,14 @@
         <title>Horta Ytchart. Horta de proximitat</title>
     </head>
     
-    <body>
+    <body  id="inici-body">
         <div class="cover">
-            <div class="navbar">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"><span>Horta Ytchart</span></a>
-                    </div>
-<!--                    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Contacts</a>
-                            </li>
-                        </ul>
-                    </div>-->
-                </div>
-            </div>
             <div class="cover-image" style="background-image : url('images/fondo.jpg')"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
+                        <p><img src="images/logo.png" /></p>
+                        <p>&nbsp;</p>
                         <h1 class="text-primary">L'horta de sempre</h1>
                         <p> l’horta d’avui amb el gust d’abans ara al teu abast</p>
                         <br>
@@ -52,10 +31,32 @@
                 </div>
             </div>
         </div>
+        <div class="navbar"  id="intro">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#inici-body" class="text-info">Inici</a>
+                        </li>
+                        <li>
+                            <a target="comanda" href="form.html" class="text-info">Comanda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12" id="intro">
+                    <div class="col-md-12">
                         <h1 class="text-primary">Horta Ytchart</h1>
                         <h3 class="text-secondary">Productors amb anys d’experiència, posem al teu abast els productes frescos directament del camp amb un tracte curós per fer-te’ls arribar amb la millor qualitat.</h3>
                     </div>
@@ -89,7 +90,7 @@
                         <blockquote>
                             <p class="text-primary">Com fer una comanda?</p>
                             <footer class="text-secondary">Tens un formulari des d’on podràs seleccionar els productes que vols per la teva cistella i en 24 hores la podràs venir a recollir al nostre viver.<br />
-                                Fes <a href="https://docs.google.com/forms/d/1Q_GiZpK_ImVSMBXjzvRGaan6HupAAx76veRMkPKtUK0/viewform?c=0&w=1&usp=mail_form_link">click aquí</a> per fer la teva comanda</footer>
+                                Fes <a href="form.html">click aquí</a> per fer la teva comanda</footer>
                         </blockquote>
                         <blockquote>
                             <p class="text-primary">Vols que t'ho portem?</p>
